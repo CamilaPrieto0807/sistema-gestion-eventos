@@ -56,5 +56,5 @@ La plataforma permitirá:
 En desarrollo - Corte #1
 
 ## Equipo
-
+Camila prieto - jeiner rodas
 Proyecto Integrador - Ingeniería de Sistemas
