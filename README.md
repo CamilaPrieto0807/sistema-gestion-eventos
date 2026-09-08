@@ -1,60 +1,76 @@
-# Sistema de Gestión de Eventos
+# Sistema de Gestión de Eventos y Reservas
 
-## Proyecto Integrador
+Proyecto integrador de las asignaturas **Bases de Datos** y **Programación en Ambiente Web I**. Sistema web para la gestión integral de eventos y espectáculos (tipo Tuboleta, Taquilla Live, Eventbrite), que permite el registro e inicio de sesión de usuarios, la administración de clientes, agentes y eventos, y la gestión de reservas.
 
-Plataforma web para la gestión de eventos, espectáculos, reservas y servicios adicionales.
+## Integrantes del equipo
 
-## Descripción del proyecto
+| Nombre | Usuario GitHub | Rol principal |
+|---|---|---|
+| _Nombre 1_ | @usuario1 | Frontend |
+| _Nombre 2_ | @usuario2 | Backend |
+| _Nombre 3_ | @usuario3 | Base de datos |
+| _Nombre 4_ | @usuario4 | Diseño / QA |
 
-El proyecto consiste en desarrollar un sistema web para la gestión integral de eventos y espectáculos, permitiendo administrar usuarios, clientes, agentes, eventos y reservas.
+## Objetivo del proyecto
 
-La plataforma permitirá:
+Aplicar los conceptos de modelamiento UML, arquitectura MVC y bases de datos relacionales en el desarrollo de un sistema web funcional, gestionando eventos, reservas, clientes, agentes y administradores.
 
-- Registro e inicio de sesión de usuarios.
-- Registro de clientes y agentes.
-- Administración de eventos.
-- Administración de reservas.
-- Consulta de eventos y reservas.
-- Gestión del estado de eventos y reservas.
-- Vistas según el tipo de usuario.
-- Reportes para administradores.
+## Tecnologías utilizadas
 
-## Tecnologías
+- **Frontend:** HTML5, CSS3, Bootstrap, JavaScript, TypeScript
+- **Backend:** _Por definir_
+- **Base de datos:** PostgreSQL
+- **Control de versiones:** Git / GitHub
+- **Gestión ágil:** Jira
+- **Diseño de interfaces:** Figma
 
-- HTML5
-- CSS
-- Bootstrap
-- JavaScript
-- TypeScript
-- PostgreSQL
-- MVC
-- Git
-- GitHub
+## Estructura del repositorio
 
-## Perfiles del sistema
+```
+gestion-eventos/
+├── frontend/       # Interfaz de usuario
+├── backend/        # Lógica de negocio y API
+├── database/       # Scripts SQL y modelo entidad-relación
+├── docs/           # Documentación y diagramas UML
+├── .gitignore
+└── README.md
+```
 
-### Cliente
+## Enlaces del proyecto
 
-- Visualizar eventos disponibles.
-- Realizar reservas.
-- Consultar sus reservas y su estado.
+- **Tablero Jira:** _[agregar enlace]_
+- **Prototipos Figma:** _[agregar enlace]_
+- **Tabla de seguimiento Daily Scrum:** _[agregar enlace o ubicación en /docs]_
 
-### Agente
+## Cómo clonar y ejecutar el proyecto
 
-- Registrar eventos.
-- Visualizar eventos registrados.
-- Administrar reservas.
-- Actualizar el estado de las reservas.
+```bash
+git clone https://github.com/usuario/gestion-eventos.git
+cd gestion-eventos
 
-### Administrador
+# Frontend
+cd frontend
+# instrucciones de instalación según el stack elegido
 
-- Visualizar reportes del sistema.
-- Consultar información general y comercial.
+# Backend
+cd ../backend
+# instrucciones de instalación según el stack elegido
+```
+
+## Flujo de trabajo (Git)
+
+- `main`: rama estable, solo se actualiza mediante pull request revisado.
+- `develop`: rama de integración de nuevas funcionalidades.
+- `feature/nombre-funcionalidad`: una rama por funcionalidad/historia de usuario, creada a partir de `develop`.
+
+Convención de commits sugerida:
+```
+feat: nueva funcionalidad
+fix: corrección de errores
+docs: cambios en documentación
+refactor: mejoras internas sin cambiar funcionalidad
+```
 
 ## Estado del proyecto
 
-En desarrollo - Corte #1
-
-## Equipo
-Camila prieto - jeiner rodas
-Proyecto Integrador - Ingeniería de Sistemas
+🚧 En desarrollo — Corte #1

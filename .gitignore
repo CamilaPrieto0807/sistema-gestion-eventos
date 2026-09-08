@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+vendor/
+venv/
+__pycache__/
+*.pyc
+
+# Variables de entorno y credenciales
+.env
+.env.local
+*.env
+
+# Builds y compilados
+dist/
+build/
+target/
+*.class
+*.war
+*.jar
+
+# Bases de datos locales
+*.sqlite3
+*.db
+
+# Archivos de IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
